@@ -1,10 +1,10 @@
 import ogImageSrc from "@images/social.png";
 
 export const SITE = {
-  title: "ScrewFast",
-  tagline: "Top-quality Hardware Tools",
-  description: "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs. Start exploring and contact our sales team for superior quality and reliability.",
-  description_short: "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs.",
+  title: "Electrónica Celular",
+  tagline: "Verdaderas Soluciones",
+  description: "Desarrollamos soluciones integrales en tecnología para gestionar y optimizar cualquier proceso. Tomaturnos, Medidores de agua ultrasonicos, radiocomunicaciones, Internet de las Cosas (IoT) y mas…. Comience a explorar y comuníquese con nuestro equipo de ventas para obtener calidad y confiabilidad superiores..",
+  description_short: "Desarrollamos soluciones integrales en tecnología para gestionar y optimizar cualquier proceso. Tomaturnos, medidores de agua, radiocomunicaciones, Internet de las Cosas (IoT) y mas…",
   url: "https://screwfast.uk",
   author: "Emil Gulamov",
 };

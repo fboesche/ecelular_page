@@ -5,7 +5,8 @@ import EmailFooterInput from "@components/ui/forms/input/EmailFooterInput.astro"
 import enStrings from "@utils/navigation.ts";
 import frStrings from "@utils/fr/navigation.ts";
 import Icon from "@components/ui/icons/Icon.astro";
-import BrandLogo from "@components/BrandLogo.astro";
+//import BrandLogo from "@components/BrandLogo.astro";
+import BrandLogo from "@components/EcelularLogo.astro";
 import { SITE } from "@data/constants";
 
 // Select the correct translation based on the page's lang prop:
@@ -15,7 +16,7 @@ const strings = Astro.currentLocale === "fr" ? frStrings : enStrings;
 const sectionThreeTitle: string = Astro.currentLocale === "fr" ? "Rester à jour" : "Stay up to date";
 const sectionThreeContent: string = Astro.currentLocale === "fr" ? "Restez informé des derniers outils et des offres exclusives." :
   "Stay updated with the latest tools and exclusive deals.";
-const crafted: string = Astro.currentLocale === "fr" ? "Fabriqué par" : "Crafted by";
+const crafted: string = Astro.currentLocale === "fr" ? "Fabriqué par" : "Elaborado por";
 ---
 
 <footer class="w-full bg-neutral-300 dark:bg-neutral-900">
@@ -77,9 +78,9 @@ const crafted: string = Astro.currentLocale === "fr" ? "Fabriqué par" : "Crafte
           © <span id="current-year"></span> {SITE.title}. {crafted}
           <a
             class="rounded-lg font-medium underline underline-offset-2 outline-none ring-zinc-500 transition duration-300 hover:text-neutral-700 hover:decoration-dashed focus:outline-none focus-visible:ring dark:ring-zinc-200 dark:hover:text-neutral-300"
-            href="https://sobstvennoai.dev"
+            href="https://fab58.netlify.app/"
             target="_blank"
-            rel="noopener noreferrer">sobstvennoAI</a
+            rel="noopener noreferrer">fBoesche</a
           >.
         </p>
       </div>
